@@ -1,0 +1,378 @@
+/*  Start Public Rules */
+body,h1,h4,h5,ul, li{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.active{
+  background-color: #9C1737;
+}
+
+.active-inverse{
+  background-color: #72142E;
+}
+/* Start Search Form */
+.search-form {
+                max-width:300px;
+                margin:10px auto;
+                padding: 5px;
+}
+.search-form .search-form-search {
+                padding: 10px 10px;
+                border: 0px solid #0F2A56;
+}
+.search-form .search-form-button {
+                position:relative;
+                padding:9px 10px;
+                border:2px solid #9C1737;
+                background-color:#9C1737;
+                color:#fff;
+}
+.search-form .search-form-button:hover  {
+                background-color:#72142E;
+}
+/* End Search Form */
+
+/* End Public Rules */
+
+/* Start Header */
+
+/* Start up-nav */
+.up-nav{
+  background-color: #0F2A56;
+}
+
+.up-nav .up-nav-content{
+  display: flex;
+  justify-content: space-around;
+}
+
+.up-nav ul{
+  list-style: none;
+  display: flex;
+}
+
+.up-nav ul a{
+  text-decoration: none;
+  padding: 0px 20px 0px 20px;
+  color: #fff;
+}
+
+.up-nav ul li{
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+}
+
+.up-nav .up-nav-drop{
+  display: none;
+  background-color: #0F2A56;
+  margin-top: 5px;
+}
+
+.up-nav .up-nav-drop li{
+  padding: 2px 0 2px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.up-nav .up-nav-drop li:hover{
+  background-color: #9C1737;
+}
+
+.up-nav ul li:hover{
+  background-color: #9C1737;
+}
+
+.up-nav .up-nav-head:hover .up-nav-drop{
+  position: absolute;
+  display: block;
+  z-index: 1;
+}
+
+.up-nav-search{
+  display: none;
+  background-color: #0F2A56;
+  margin-top: 5px;
+}
+
+.up-nav-search a{
+  float:right;
+  margin-bottom: 2px;
+  font-size: 15px;
+}
+
+.up-nav-search a:hover{
+  color: #ccc;
+}
+
+.up-nav-search-head:hover .up-nav-search{
+  position: absolute;
+  display: block;
+  z-index: 1;
+}
+
+/* End up-nav */
+
+/* Start Up-nav */
+.up-nav{
+  background-color: #0F2A56;
+  color: #fff;
+}
+
+
+/* End Up-nav */
+/* Start Header brand */
+.header-brand{
+  background: url(https://media-public.fcbarcelona.com/20157/28990530/725447/1.0/725447.jpg) no-repeat 50% 50% /cover ;
+  height: 100px;
+  border-top: 3px solid #72142E;
+}
+
+.header-brand .brand{
+  color: #fff;
+  text-align: center;
+  line-height: 2.5;
+  text-transform: uppercase;
+}
+
+/* End Header brand */
+.flex-nav{
+  background-color: #9C1737;
+  text-align: center;
+}
+
+.flex-nav ul{
+  list-style: none;
+  padding: 0;
+  margin:0
+}
+
+.flex-nav a{
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding: 10px;
+}
+
+.flex-nav a:hover{
+  background-color: #72142E;
+}
+
+/* End Header */
+
+/* Start Footer */
+footer{
+  background-color: #F0F0F0;
+}
+
+/*  Start Footer Social   */
+footer .footer-social{
+  border-top: 1px solid #E6E6E6;
+  border-bottom: 1px solid #E6E6E6;
+  margin: 0 0 10px 0;
+}
+
+footer .footer-social ul{
+  list-style: none;
+  font-size: 1.2em;
+  display:flex;
+  text-align: center;
+}
+
+footer .footer-social li{
+  flex: 1;
+}
+
+footer .footer-social i{
+  color: #999999;
+  -webkit--webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;: 0.3s;: .3s;
+}
+
+footer .footer-social i:hover{
+  color: #333;
+}
+/*  End Footer Social   */
+
+/*  Start Footer Boxes   */
+.footer-boxes .footer-box ul{
+   list-style: none;
+   text-align: left;
+   padding: 5px 0px 5px 0px;
+   -webkit-transition: 0.3s;
+   -moz-transition: 0.3s;
+   -o-transition: 0.3s;: .3s;
+}
+
+.footer-boxes .footer-box ul a{
+  text-decoration: none;
+}
+
+.footer-boxes .footer-box ul a h4{
+   margin: 5px 0px 10px 5px;
+   color: #999999;
+   font-size: .9em;
+   text-transform: uppercase;
+   text-align: center;
+   -webkit-transition: 0.3s;
+   -moz-transition: 0.3s;
+   -o-transition: 0.3s;: .3s;
+}
+
+.footer-boxes .footer-box ul a h4:hover{
+  color: #333;
+}
+
+.footer-boxes .footer-box ul a h5{
+   margin: 5px 0px 5px 5px;
+   color: #999999;
+   display: none;
+   -webkit-transition: 0.3s;-moz-transition: 0.3s;-o-transition: 0.3s;: .3s;
+}
+
+.footer-boxes .footer-box ul:hover{
+  background-color: #E6E6E6
+}
+/*  End Footer Boxes   */
+/* Start Copyrights */
+.footer-copyrights h5{
+  color: #999999;
+  text-align: center;
+}
+
+.footer-copyrights ul{
+  display: none;
+}
+
+.footer-copyrights ul li{
+  margin: 0px 5px 0px 5px;
+}
+
+.footer-copyrights ul li a,.footer-copyrights h5 a{
+  text-decoration: none;
+  color: #999999;
+  -webkit-transition: 0.3s;-moz-transition: 0.3s;-o-transition: 0.3s;: .3s;
+}
+.footer-copyrights h5 a:hover,.footer-copyrights ul li a:hover{
+  color: #333;
+}
+/* End Copyrights   */
+
+/* Desktop Screens */
+@media screen and (min-width: 768px)
+{
+  /* Start Header */
+  .header{
+    position: sticky;
+    top: 0;
+  }
+
+  .flex-nav ul{
+    display: flex;
+    margin: 0;
+  }
+
+  .flex-nav a{
+    flex: 1 1 0;
+  }
+
+  .flex-nav .container{
+    display: flex;
+  }
+
+  .flex-nav ul{
+    flex: 1;
+  }
+
+  .flex-nav form{
+    flex: 1;
+    text-align: right;
+    margin: 0;
+  }
+
+  /* End Header */
+
+/*  Start Footer Social */
+footer .footer-social ul{
+  display: flex;
+  padding: 30px 0 30px 0;
+  justify-content: center;
+}
+
+
+footer .footer-social ul li i{
+  font-size: 30px;
+  flex: 1;
+}
+
+/* End Footer Social   */
+
+/* Start Footer Boxes */
+.footer-boxes{
+  display: flex;
+  padding: 0px 0px 50px 0px;
+  }
+
+  .footer-boxes .footer-box{
+    flex: 1;
+  }
+
+  .footer-boxes .footer-box ul{
+     padding: 5px 0px 0px 5px;
+  }
+
+  .footer-boxes .footer-box ul a{
+    text-decoration: none;
+  }
+
+  .footer-boxes .footer-box ul a h4{
+     text-align: left;
+      margin: 0px 0px 10px 5px;
+  }
+
+  .footer-boxes .footer-box ul a h5{
+     display: block;
+     margin: 17px 0px 5px 5px;
+  }
+
+  .footer-boxes .footer-box:hover{
+    background-color: #E6E6E6
+  }
+
+  .footer-boxes .footer-box ul a h5:hover{
+    color: #333;
+  }
+  /* End Footer Boxes */
+  /* Start Copyrights */
+  .footer-copyrights{
+    border-top: 1px solid #E6E6E6;
+    padding: 20px 0 20px 0;
+  }
+
+  .footer-copyrights .container{
+    display: flex;
+    justify-content: space-between;
+    /*margin: 10px 0px 10px 0px;*/
+  }
+
+  .footer-copyrights ul{
+    display: flex;
+    list-style: none;
+  }
+  /* End Copyrights   */
+}
+
+/* Mobile Screens */
+@media screen and (max-width: 768px){
+  /* Start up-nav */
+  .up-nav{
+    display: none;
+  }
+  /* End   up-nav */
+}
