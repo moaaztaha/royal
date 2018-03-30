@@ -487,7 +487,8 @@ footer .footer-social i:hover{
   }
 
   .header-brand .brand{
-    line-height: 1.5;
+    line-height: 2.5;
+    font-size: 21px;
   }
 
   .header .flex-nav{
@@ -537,9 +538,5 @@ footer .footer-social i:hover{
   .footer-copyrights ul{
     display: none;
   }
-
-
-
-
   /* End Footer */
 }
