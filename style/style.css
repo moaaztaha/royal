@@ -501,6 +501,7 @@ footer .footer-social i:hover{
   /* Start Main */
   .home-background-content{
     font-size: 16px;
+    z-index: 0;
   }
 
   .home-background-content p{
