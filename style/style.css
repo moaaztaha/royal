@@ -499,6 +499,10 @@ footer .footer-social i:hover{
   /* End Header */
 
   /* Start Main */
+  .home-background-content{
+    font-size: 16px;
+  }
+
   .home-background-content p{
     margin-top: 3px;
   }
