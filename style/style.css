@@ -245,6 +245,15 @@ body{
   padding-top:10px;
 }
 
+/* Start Home News */
+.home-news{
+  font-size: 21px;
+  color: #313947;
+  border-bottom: 1px solid #9C1737;
+}
+
+/* End Home News */
+
 /* Home box */
 .home-main .home-box{
   display: flex;
