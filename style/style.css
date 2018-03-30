@@ -135,7 +135,7 @@ body{
 /* Start Header brand */
 .header{
   z-index: 1;
-  box-shadow: 0px 2px 10px 0px;
+  box-shadow: 0px 2px 8px 0px;
 }
 
 .header-brand{
