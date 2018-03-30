@@ -1,5 +1,5 @@
 /*  Start Public Rules */
-body,h1,h4,h5,ul, li{
+body,h1,h4,h5,ul, li, h3{
   margin: 0;
   padding: 0;
 }
@@ -94,7 +94,7 @@ body{
 .up-nav .up-nav-head:hover .up-nav-drop{
   position: absolute;
   display: block;
-  z-index: 1;
+  z-index: 2;
 }
 
 .up-nav-search{
@@ -116,7 +116,7 @@ body{
 .up-nav-search-head:hover .up-nav-search{
   position: absolute;
   display: block;
-  z-index: 1;
+  z-index: 2;
 }
 
 /* End up-nav */
@@ -130,8 +130,12 @@ body{
 
 /* End Up-nav */
 /* Start Header brand */
+.header{
+  z-index: 1;
+}
+
 .header-brand{
-  background: url(https://media-public.fcbarcelona.com/20157/28990530/725447/1.0/725447.jpg) no-repeat 50% 50% /cover ;
+  background: url(../imgs/headecover.jpeg) no-repeat 50% 50% /cover ;
   height: 100px;
   border-top: 3px solid #72142E;
 }
@@ -168,6 +172,34 @@ body{
 }
 
 /* End Header */
+
+/* Home Background */
+
+.home-background{
+  min-height:500px;
+  background: url("../imgs/home-cover.jpeg") no-repeat 50% 50% / cover;
+}
+
+.home-background-content{
+  position: relative;
+  top: 400px;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.home-background-content p{
+  margin-top: 10px;
+}
+
+.home-background-content a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Home Background */
 
 /* Start home main */
 .home-main{
