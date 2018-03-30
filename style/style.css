@@ -217,6 +217,10 @@ body{
   background: url("../imgs/home-cover.jpeg") no-repeat 50% 50% / cover;
 }
 
+.one{
+    background: url("../imgs/school.jpg") no-repeat 50% 50% / cover;
+}
+
 .home-background-content{
   position: relative;
   top: 400px;
