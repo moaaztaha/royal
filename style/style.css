@@ -130,7 +130,7 @@ body{
 .up-nav .up-nav-head:hover .up-nav-drop{
   position: absolute;
   display: block;
-  z-index: 2;
+  z-index: 3;
 }
 
 .up-nav-search{
@@ -152,7 +152,7 @@ body{
 .up-nav-search-head:hover .up-nav-search{
   position: absolute;
   display: block;
-  z-index: 2;
+  z-index: 3;
 }
 
 /* End up-nav */
@@ -167,7 +167,7 @@ body{
 /* End Up-nav */
 /* Start Header brand */
 .header{
-  z-index: 1;
+  z-index: 2;
   box-shadow: 0px 2px 8px 0px;
 }
 
@@ -496,12 +496,16 @@ footer .footer-social i:hover{
     bottom: 0;
     width: 100%;
   }
+
+  .header .flex-nav a li{
+    font-size: 15px;
+  }
   /* End Header */
 
   /* Start Main */
   .home-background-content{
     font-size: 16px;
-    z-index: 0;
+    z-index: 1;
   }
 
   .home-background-content p{
