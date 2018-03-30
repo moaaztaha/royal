@@ -529,6 +529,16 @@ footer .footer-social i:hover{
     display: block;
   }
 
+  .one{
+      margin-bottom: 10px;
+      padding: 10px;
+  }
+
+.one .home-background-content{
+  font-size: 13px;
+  z-index: 1;
+}
+
   aside{
     text-align: center;
   }
