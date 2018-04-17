@@ -24,6 +24,101 @@ body{
   background-color: #72142E;
 }
 
+/* Start Login */
+
+      /*Showing and Hiding login and Registration */
+      .log-in-display{
+        display: none;
+      }
+
+      .log-in-display-on{
+        display: block;
+      }
+
+      .reg-display{
+        display: none;
+      }
+
+      .reg-display-on{
+        display: block;
+      }
+      /*Showing and Hiding login and Registration */
+
+      .log-in, .reg-body{
+        width: 250px;
+        height: 330px;
+        margin:0 auto;
+        text-align: center;
+        padding: 10px;
+        background-color: #0F2A56;
+        color: #fff;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -165px;
+        margin-left:  -125px;
+        z-index: 5;
+      }
+
+      .loginHeader{
+            color: #fff;
+      }
+
+      .log-in .login input, .reg-body .reg-form input{
+        width: 100%;
+        border-color: #0F2A56;
+      }
+
+      .log-in .login input, .reg-body .reg-form input{
+            border-color:#D3223E;
+            color: #0F2A56;
+      }
+
+      .log-in .login label, .log-in .login input, .reg-body .reg-form label, .reg-body .reg-form input{
+        display: block;
+        margin-top: 20px;
+      }
+
+      .formInput{
+        border: 1px solid #E4E6E7;
+        padding: 5px 0px;
+        font-size: 18px;
+      }
+
+
+
+      .log-in .login label, .reg-body .reg-form label{
+        float: left;
+        padding-left: 0;
+        margin-left: 0;
+      }
+
+      .log-in .forgetten{
+        margin: 10px 0px;
+        float: right;
+        color: #fff;
+      }
+
+      .log-in .forgetten:hover{
+            color: #D3223E;
+      }
+
+      .loginSubmit{
+            background-color: #D3223E;
+            border: none;
+            color: #fff !important;
+            padding: 10px 0px;
+      }
+
+
+/* Registration Edits */
+
+.reg-body{
+  height: 500px;
+  margin-top: -250px;
+}
+
+/* End Login */
 
 /* Start Header */
 .header{
@@ -119,7 +214,7 @@ body{
   border-bottom: 1px solid #ccc;
 }
 
-.up-nav .up-nav-drop li:hover{
+.up-nav .up-nav-drop li:hover #loginbutton{
   background-color: #9C1737;
 }
 
@@ -163,7 +258,17 @@ body{
   color: #fff;
 }
 
+.fa-times-circle:hover{
+  cursor: not-allowed;
+}
 
+#loginbutton{
+  text-decoration: none;
+  padding: 0px 15px 0px 15px;
+  color: #fff;
+  background: #0F2A56;
+  border: none;
+}
 /* End Up-nav */
 /* Start Header brand */
 .header{

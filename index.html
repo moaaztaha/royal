@@ -7,12 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
     <link rel="icon" href="imgs/icon.png">
-    <meta name="description" content="Royal Champions is a also called Royals club. Is has many sections like Football, Basketball and Volleyball.">
+    <meta name="description" content="Royal Champions is a also called Royals club. It has many sections like Football, Basketball and Volleyball.">
     <meta name="keywords" content="football,sports,basketball,volleyball">
     <!-- Styles and Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/news.css">
     <link rel="stylesheet" href="style/style.css">
+    <script src="js/login.js"></script>
   </head>
   <body>
     <!-- Start Header -->
@@ -50,8 +51,8 @@
               </li>
               <li class="up-nav-head"><a href="#"><i class="fa fa-user"></i></a>
                 <ul class="up-nav-drop">
-                  <li><a href="#">Login</a></li>
-                  <li><a href="#">Register</a></li>
+                  <li><button onclick="popuplogin()" id="loginbutton"><a href="#">Login</a></button></li>
+                  <li onclick="popupreg()"><a href="#">Register</a></li>
                 </ul>
               </li>
               <li class="up-nav-head"><a href="#"><i class="fa fa-language"></i></a>
@@ -81,7 +82,7 @@
         <div class="flex-nav">
           <div class="container">
             <ul>
-              <a class="active-inverse" href="home.html"><li>Home</li></a>
+              <a class="active-inverse" href="index.html"><li>Home</li></a>
               <a href="contact.html"><li>Contact Us</li></a>
               <a href="#"><li>About Us</li></a>
               <a href="news.html"><li>News</li></a>
@@ -294,5 +295,40 @@
       <!-- End Footer Copyrights -->
     </footer>
     <!-- End Footer -->
+
+    <!-- Start Login Form -->
+    <div id="login" class="log-in log-in-display">
+      <p><i onclick="popuplogin()" class="fa fa-times-circle"></i></p>
+      <h2 class="loginHeader">Log in</h2>
+      <form class="login">
+        <label>E-mail*</label>
+        <input class="formInput" type="email">
+        <label>Password*</label>
+        <input class="formInput" type="password">
+        <a href="#" class="forgetten">Forgot Password!!</a>
+        <input class="loginSubmit" type="submit" value="Login">
+      </form>
+    </div>
+    <!-- End Login From -->
+    <!-- Start Registeration -->
+    <div id="reg" class="reg-body reg-display">
+      <p><i onclick="popupreg()" class="fa fa-times-circle"></i></p>
+      <h3>Registration</h3>
+      <form class="reg-form">
+        <label>Full Name*</label>
+        <input class="formInput" type="text">
+        <label>Name*</label>
+        <input class="formInput" type="text">
+        <label>Email*</label>
+        <input class="formInput" type="email">
+        <label>Write Password*</label>
+        <input class="formInput" type="password">
+        <label>Re-write Password</label>
+        <input class="formInput" type="password">
+        <input class="loginSubmit" type="submit">
+      </form>
+    </div>
+    <!-- End Registeration -->
+
   </body>
 </html>
