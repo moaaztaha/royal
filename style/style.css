@@ -313,6 +313,9 @@ body{
   background-color: #72142E;
 }
 
+.header .flex-nav .nav-icons{
+  display: none;
+}
 /* End Header */
 
 /* Home Background */
@@ -594,7 +597,12 @@ footer .footer-social i:hover{
 @media screen and (max-width: 768px){
 
   /* Start up-nav */
-  .up-nav .desktop-only{
+  .header .flex-nav .nav-icons{
+    display: block;
+    font-size: 150%;
+  }
+
+  .up-nav .desktop-only, .flex-nav ul li{
     display: none;
   }
   /* End up-nav */
