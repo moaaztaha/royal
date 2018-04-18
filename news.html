@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Royal Champions</title>
+    <title>Royal - News</title>
     <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
     <link rel="icon" href="imgs/icon.png">
-    <meta name="description" content="Royal Champions is a also called Royals club. Is has many sections like Football, Basketball and Volleyball.">
+    <meta name="description" content="Royal Champions is a also called Royals club. It has many sections like Football, Basketball and Volleyball.">
     <meta name="keywords" content="football,sports,basketball,volleyball">
     <!-- Styles and Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/news.css">
     <link rel="stylesheet" href="style/style.css">
+    <script src="js/login.js"></script>
   </head>
   <body>
     <!-- Start Header -->
@@ -45,13 +46,13 @@
                     <input class="search-form-search" type="text" placeholder="Search..." required>
                     <input class="search-form-button" type="button" value="Search">
                   </form>
-                  <a href="#">Advamced Search</a>
+                  <a href="#">Advanced Search</a>
                 </div>
               </li>
               <li class="up-nav-head"><a href="#"><i class="fa fa-user"></i></a>
                 <ul class="up-nav-drop">
-                  <li><a href="#">Login</a></li>
-                  <li><a href="#">Register</a></li>
+                  <li><button onclick="popuplogin()" id="loginbutton"><a href="#">Login</a></button></li>
+                  <li onclick="popupreg()"><a href="#">Register</a></li>
                 </ul>
               </li>
               <li class="up-nav-head"><a href="#"><i class="fa fa-language"></i></a>
@@ -81,10 +82,11 @@
         <div class="flex-nav">
           <div class="container">
             <ul>
-              <a href="index.html"><li>Home</li></a>
-              <a href="contact.html"><li>Contact Us</li></a>
-              <a href="#"><li>About Us</li></a>
-              <a class="active-inverse" href="news.html"><li>News</li></a>
+              <a href="index.html"><i class="nav-icons fa fa-home"></i><li>Home</li></a>
+              <a href="contact.html"><i class="nav-icons fa fa-phone"></i><li>Contact Us</li></a>
+              <a href="#"><i class="nav-icons fa fa-info"></i><li>About Us</li></a>
+              <a class="active-inverse" href="news.html"><i class="nav-icons fa fa-newspaper-o"></i><li>News</li></a>
+              <a href="tickets.html"><i class="nav-icons fa fa-ticket"></i><li>Tickets</li></a>
             </ul>
           </div>
         </div>

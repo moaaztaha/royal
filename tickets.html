@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Royal Champions</title>
+    <title>Royal - Tickets</title>
     <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +11,10 @@
     <meta name="keywords" content="football,sports,basketball,volleyball">
     <!-- Styles and Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style/news.css">
+    <link rel="stylesheet" href="style/tickets.css">
     <link rel="stylesheet" href="style/style.css">
     <script src="js/login.js"></script>
+    <script src="js/tickets.js"></script>
   </head>
   <body>
     <!-- Start Header -->
@@ -82,11 +83,11 @@
         <div class="flex-nav">
           <div class="container">
             <ul>
-              <a class="active-inverse" href="index.html"><i class="nav-icons fa fa-home"></i><li>Home</li></a>
+              <a href="index.html"><i class="nav-icons fa fa-home"></i><li>Home</li></a>
               <a href="contact.html"><i class="nav-icons fa fa-phone"></i><li>Contact Us</li></a>
               <a href="#"><i class="nav-icons fa fa-info"></i><li>About Us</li></a>
               <a href="news.html"><i class="nav-icons fa fa-newspaper-o"></i><li>News</li></a>
-              <a href="tickets.html"><i class="nav-icons fa fa-ticket"></i><li>Tickets</li></a>
+              <a class="active-inverse" href="tickets.html"><i class="nav-icons fa fa-ticket"></i><li>Tickets</li></a>
             </ul>
           </div>
         </div>
@@ -94,103 +95,166 @@
       </div>
     <!-- End Header   -->
 
-    <!-- Start Main content -->
-    <!-- Home Background -->
-        <div class="home-background">
-          <div class="home-background-content">
-            <div class="container">
-              <h3><a href="#">See our Latest Videos</a></h3>
-              <p><a href="#">Mohamed Salah became the best player of 2018.</a></p>
+    <!-- Start Tickets -->
+    <main class="tickets">
+      <div class="container">
+      <h1 class="tickets-heading">Book Tickets For your favourite Games</h1>
+      <h1 class="sub tickets-heading">Football</h1>
+        <div class="ticket-game">
+          <div class="tickets-teams">
+            <div class="team1">
+              <div class="team-in">
+                <h3>Barcelona</h3>
+                <img src="imgs/barca-icon.png" alt="barcelona-icon">
+                <p class="desktop-only">Real Madrid Club de Fútbol, commonly known as Real Madrid, or simply as Real,
+                   is a professional football club based in Madrid.
+                 </p>
+              </div>
+            </div>
+            <div class="team2">
+              <div class="team-in">
+                <h3>Real Madrid</h3>
+                <img src="imgs/real-icon.png" alt="real-madrid-icon">
+                <p class="desktop-only">Real Madrid Club de Fútbol, commonly known as Real Madrid, or simply as Real,
+                   is a professional football club based in Madrid.
+                 </p>
+              </div>
             </div>
           </div>
+          <div class="booking">
+            <form class="booking-tickets" name="football-form" >
+                <label>Data: 12/12/20190 |</label>
+                <label>Number of Tickets</label>
+                <select name="num" onclick="footballtickets()">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <label>VIP</label>
+                <select name="vip" onclick="footballtickets()">
+                  <option value="1">Yes</option>
+                  <option value="0">No</option>
+                </select>
+                <label class="total">Total: </label>
+                <label id="football-total">0</label>
+                <label> $</label>
+                <input type="submit" id="ticket-submit" value="Add to Cart">
+            </form>
+          </div>
         </div>
-    <!-- Home Background -->
 
-    <!-- Start Home main -->
-    <div class="home-main">
-      <!-- Start home main -->
-        <main>
-        <!-- News Section -->
-          <section>
-            <div class="container">
-              <h1 class="home-news">News</h1>
-              <div class="News" style="background-color:#fff;">
-                  <!--- contains all th news page content-->
-              <div class="upbar">
-                  <!---upbar contains photos at the 3 top photos-->
-              <div class="image1" style="margin-right:10px">
-                  <p style="color:#fff;">New Club App</p>
-                  <img src="imgs/apppic.jpg" alt="matches app" width="300" height="300" >
-                  <h2 style="color:#313947;">Download app now</h2>
+        <h1 class="sub tickets-heading">Volleyball</h1>
+          <div class="ticket-game">
+            <div class="tickets-teams">
+              <div class="team1 sub1">
+                <div class="team-in">
+                  <h3>Newbold</h3>
+                  <img src="imgs/volleyball.png" alt="barcelona-icon">
+                  <p class="desktop-only">Real Madrid Club de Fútbol, commonly known as Real Madrid, or simply as Real,
+                     is a professional football club based in Madrid.
+                   </p>
                 </div>
-              <div class="image2" style="margin-right:10px">
-                  <p style="color:#fff;">Interesting Interview</p>
-                  <img src="imgs/pique.jpg" alt="image of pique" width="300" height="300">
-                  <h2 style="color:#313947;">Gerard Pique</h2>
-
-                </div>
-              <div class="image3">
-                  <p style="color:#fff;">Tournament News</p>
-                  <img src="imgs/tournament.jpg" alt="tournament" width="300" height="300">
-                  <h2 style="color:#313947;">Get Exclusive news!</h2>
-
-                 </div>
               </div>
-          </section>
-        <!-- End News Section -->
-
-        <!-- End Royal School Section -->
-          <div class="container">
-            <h1 class="home-news" style="margin-top:10px">Royal School</h1>
-            <div class="home-background one">
-              <div class="home-background-content">
-                  <h3><a href="#">The 7th Royal School International Tournament</a></h3>
-                  <p><a href="#">The biggest tournament in the USA in 2018.</a></p>
+              <div class="team2 sub11">
+                <div class="team-in">
+                  <h3>Wolves</h3>
+                  <img src="imgs/Volleyball1.png" alt="real-madrid-icon">
+                  <p class="desktop-only">Real Madrid Club de Fútbol, commonly known as Real Madrid, or simply as Real,
+                     is a professional football club based in Madrid.
+                   </p>
                 </div>
               </div>
             </div>
-        <!-- Start Royal School Section -->
-        </main>
-      <!-- End home main -- >
-      <!-- Start home aside -->
-        <aside>
-            <!-- Start Box 1 -->
-            <div class="home-box1">
-              <img src="imgs/box1cover1.jpeg" alt="club logo">
-              <div class="box1-content">
-                <h1>Mo Salah</h1>
-                <p>Best Player of the week</p>
-                <button>view goals</button>
+            <div class="booking">
+              <form class="booking-tickets" name="volley-form" >
+                  <label>Data: 12/12/20190 |</label>
+                  <label>Number of Tickets</label>
+                  <select name="num" onclick="volleytickets()">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                  <label>VIP</label>
+                  <select name="vip" onclick="volleytickets()">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                  </select>
+                  <label class="total">Total: </label>
+                  <label id="volley-total">0</label>
+                  <label> $</label>
+                  <input type="submit" id="ticket-submit" value="Add to Cart">
+              </form>
+            </div>
+          </div>
+
+          <h1 class="sub tickets-heading">Basketball</h1>
+            <div class="ticket-game">
+              <div class="tickets-teams">
+                <div class="team1 sub2">
+                  <div class="team-in">
+                    <h3>Aces</h3>
+                    <img src="imgs/basket.png" alt="barcelona-icon">
+                    <p class="desktop-only">Real Madrid Club de Fútbol, commonly known as Real Madrid, or simply as Real,
+                       is a professional football club based in Madrid.
+                     </p>
+                  </div>
+                </div>
+                <div class="team2 sub22">
+                  <div class="team-in">
+                    <h3>Killers</h3>
+                    <img src="imgs/basket1.png" alt="real-madrid-icon">
+                    <p class="desktop-only">Real Madrid Club de Fútbol, commonly known as Real Madrid, or simply as Real,
+                       is a professional football club based in Madrid.
+                     </p>
+                  </div>
+                </div>
+              </div>
+              <div class="booking">
+                <form class="booking-tickets" name="basket-form" >
+                    <label>Data: 12/12/20190 |</label>
+                    <label>Number of Tickets</label>
+                    <select name="num" onclick="baskettickets()">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                    </select>
+                    <label>VIP</label>
+                    <select name="vip" onclick="baskettickets()">
+                      <option value="1">Yes</option>
+                      <option value="0">No</option>
+                    </select>
+                    <label class="total">Total: </label>
+                    <label id="basket-total">0</label>
+                    <label> $</label>
+                    <input type="submit" id="ticket-submit" value="Add to Cart">
+                </form>
               </div>
             </div>
-            <!-- End Box 1 -->
 
-            <!-- Start Box 1 -->
-            <div class="home-box1">
-              <img src="imgs/box1cover.jpeg" alt="club logo">
-              <div class="box1-content">
-                <h1>Book Your Tickets Now!</h1>
-                <p>watch us</p>
-                <button><a href="tickets.html">Tickets</a></button>
-              </div>
-            </div>
-            <!-- End Box 1 -->
-
-
-            <!-- Start Box -->
-            <div class="home-box">
-              <img src="imgs/icon.png" style="width:100px;height:100px" alt="club logo">
-              <div class="box-content">
-                <h3>Club Schedual</h3>
-                <button>view</button>
-              </div>
-            </div>
-            <!-- End Box -->
-        </aside>
-      <!-- End home aside -->
-    </div>
-
-    <!-- End Main content -->
+      </div>
+    </main>
+    <!-- End Tickets -->
 
     <!-- Start Footer -->
     <footer>
@@ -299,7 +363,7 @@
 
     <!-- Start Login Form -->
     <div id="login" class="log-in log-in-display">
-      <p><i onclick="popuplogin()" class="fa fa-times-circle"></i></p>
+      <p class="desktop-only"><i onclick="popuplogin()" class="fa fa-times-circle"></i></p>
       <h2 class="loginHeader">Log in</h2>
       <form class="login">
         <label>E-mail*</label>
@@ -313,7 +377,7 @@
     <!-- End Login From -->
     <!-- Start Registeration -->
     <div id="reg" class="reg-body reg-display">
-      <p><i onclick="popupreg()" class="fa fa-times-circle"></i></p>
+      <p class="desktop-only"><i onclick="popupreg()" class="fa fa-times-circle"></i></p>
       <h3>Registration</h3>
       <form class="reg-form">
         <label>Full Name*</label>

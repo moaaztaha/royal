@@ -451,6 +451,11 @@ body{
 {
   background-color: #64141E;
 }
+
+.home-main .home-box1 .box1-content button a{
+  text-decoration: none;
+  color: #fff;
+}
 /* End Home Box 1 */
 
 /* End home main */
@@ -595,6 +600,10 @@ footer .footer-social i:hover{
 
 /* Mobile Screens */
 @media screen and (max-width: 768px){
+  /* General */
+  .desktop-only{
+    display:none;
+  }
 
   /* Start up-nav */
   .header .flex-nav .nav-icons{
@@ -667,6 +676,21 @@ footer .footer-social i:hover{
     padding: 0;
   }
   /* End Main */
+
+ /* Start Tickets */
+  .ticket-game{
+    height: 450px;
+  }
+
+  .total{
+    display: block;
+  }
+
+  #ticket-submit{
+    margin-left: 30%;
+  }
+ /* End Tickets */
+
   /* Start Footer */
   .footer-boxes{
     display: block;
