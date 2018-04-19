@@ -483,6 +483,143 @@ body{
 
 /* End home main */
 
+/*Omar*/
+.News{
+  background-color: #0F2A56;
+}
+
+
+
+#blocks article{padding: 10px;}
+#blocks article p{
+        color: #fff;
+    }
+
+#blocks article h2{
+    color: #fff;
+    }
+
+
+.upbar{
+        display:flex;
+        min-width: 200px;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        background-color: #0F2A56;
+        padding: 10px;
+
+    }
+.upbar h2{ color: #71c8e4;}
+
+/*image hover effects*/
+.image1 p{display:none;
+           position:absolute;
+           background-color: #9c1737;
+           font-size:120%;
+          }
+
+.image1:hover p{ display: inline;}
+
+.image2 p{display:none;
+           position:absolute;
+           background-color: #9c1737;
+           font-size:120%;
+          }
+
+.image2:hover p{ display: inline;}
+
+.image3 p{display:none;
+           position:absolute;
+           background-color: #9c1737;
+           font-size:120%;
+          }
+
+.image3:hover p{ display: inline;}
+/*hover effects end*/
+/*Omar second page-volleyball*/
+/*.volleyball{position:relative;}
+.volleybox img{width:100%; margin:0;}
+.volleybox h1{font-family: sans-serif;
+    text-align: center;
+    color:white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);}*/
+.volleyball{background-color: #272f4f;}
+.volleybox{
+    font-family: Arial;
+}
+
+.volleytext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px
+}
+.volleybox img{width:100%;}
+.v-gallery span{
+        display:none;
+    }
+.v-gallery{
+        list-style-type: none;
+        width:400px;
+        height:400px;
+        display:flex;
+        max-width:400px;
+        flex-wrap:wrap;
+        background-color: #272f4f;
+        margin: auto 0;
+    }
+.v-gallery img{ padding:25px;
+
+    }
+.v-gallery li:hover span{
+    display:block;
+    position:absolute;
+    left: 700px;
+    top:390px;
+    margin: auto 0;
+
+    }
+.gallery-container h2{ color:#FFFFFF; padding:0;}
+.volleycols
+    { display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding-bottom:10px;
+      margin-top:-20px;}
+.volleycol1,.volleycol2,.volleycol3{
+    border: 3px solid #9c1737;
+    border-radius: 20px;
+    width:300px;
+    height 700px;
+    text-align: center;}
+.volleycol1,.volleycol2,.volleycol3 p{color:#f41616;
+    padding:5px;}
+
+ @media only screen and (max-width: 600px) {
+
+    .volleyball{
+        width:100%;
+    }
+     .volleybox img{margin: 0;}
+    .volleybox img{width:100%;}
+    .v-gallery span{
+    display:none;
+    margin: auto 0;
+
+    }
+}
+
+/*Omar*/
+
+
 /* Start Footer */
 footer{
   background-color: #F0F0F0;
