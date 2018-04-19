@@ -602,21 +602,6 @@ body{
     text-align: center;}
 .volleycol1,.volleycol2,.volleycol3 p{color:#f41616;
     padding:5px;}
-
- @media only screen and (max-width: 600px) {
-
-    .volleyball{
-        width:100%;
-    }
-     .volleybox img{margin: 0;}
-    .volleybox img{width:100%;}
-    .v-gallery span{
-    display:none;
-    margin: auto 0;
-
-    }
-}
-
 /*Omar*/
 
 
@@ -850,6 +835,19 @@ footer .footer-social i:hover{
     margin-left: 30%;
   }
  /* End Tickets */
+
+ /* Start omar */
+ .volleyball{
+     width:100%;
+ }
+  .volleybox img{margin: 0;}
+ .volleybox img{width:100%;}
+ .v-gallery span{
+ display:none;
+ margin: auto 0;
+
+ }
+ /* End omar */
 
   /* Start Footer */
   .footer-boxes{
