@@ -771,6 +771,49 @@ border: 1px solid #fff;
 }
 .c-button:hover{background-color:#2579b3;box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
 
+/* HandBall */
+
+.team{width: 900px; height: 450px;}
+.flex-team{display: flex;}
+.cup{    width: 447px;
+    height: 400px;
+    padding: 3px 0 2px 2px;}
+.goal{width: 450px;
+    height: 400px;
+    padding: 3px 2px 2px 0;}
+.matches{display: flex;}
+.Ahly{width:150px;
+height:150px;}
+.royalchampions{width:150px;height:150px;
+}
+.matches h1{margin:50px;}
+.matches {
+    border: 1px solid #000000;
+    border-radius: 2px;
+    background-color: #ffffff;
+    width: 890px;
+    padding: 5px;
+    margin: 2px 0 2px 0;
+    justify-content: space-between;
+    opacity: 0.9;
+}
+.wadidegla{width:150px;height:150px;
+}
+.handball{  background-color: #0F2A56;}
+.textB{text-align: center;color:#ffffff;}
+.textB2 h2{color:#ffffff;}
+.B2{color:#ffffff;}
+.paragraph-flex{color:#ffffff;font-size: 80%;
+display:flex;}
+.p1{color:#ffffff;font-size: 80%;text-align: center;}
+.p2{color:#ffffff;font-size: 80%;text-align:center;}
+.h2-style{color:#ffffff;padding: 2px 0 0 0;
+    margin: -2px 0 -15px;}
+.details{color:#ffffff;padding: 20px;
+    text-align: center;}
+.details a{color:#ffffff;}
+.details:hover a{color:#9c1737;}
+/* HandBall */
 
 /* Norhan */
 
@@ -1407,6 +1450,45 @@ footer .footer-social i:hover{
  text-align: center;
 }
  /* End Contact us */
+/* HandBall */
+
+
+
+
+   .team
+    {width: 310px; height: 250px;}
+    .goal{width: 310px;
+    height: 250px;
+    padding: 3px 2px 2px 0;}
+    .cup{ width: 310px;
+    height: 250px;
+    padding: 3px 0 2px 2px;}
+    .royalchampions{ width:95px;height:95px;
+  }
+    .Ahly { width:95px;height:105px;}
+
+.wadidegla{
+    width:95px;height:95px;}
+.matches {
+    border: 1px solid #000000;
+    border-radius: 2px;
+    background-color: #ffffff;
+    width: 300px;
+    padding: 5px;
+    margin: 2px 0 2px 0;
+    justify-content: space-between;
+    opacity: 0.9;
+    height:100px
+}
+    .matches h1{margin:50px;font-size: 90%;}
+.flex-team{
+  display: block;
+}
+  
+
+
+/* HandBall */
+
 
  /* Norhan */
 
