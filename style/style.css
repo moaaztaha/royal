@@ -1437,6 +1437,11 @@ footer .footer-social i:hover{
  margin: auto 0;
 
  }
+
+ .v-gallery{
+   width: 335px;
+   height: 770px
+ }
  /* End omar */
 
  /* Norhan */
@@ -1550,6 +1555,10 @@ footer .footer-social i:hover{
  #move{animation-play-state: paused;
  margin: auto;}
 
+.unknownresult{
+  padding: 0;
+  width: 15%;
+}
 
  /* Mostafa */
 
