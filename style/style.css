@@ -328,7 +328,8 @@ body{
 
 .one{
     background: url("../imgs/school.jpg") no-repeat;
-    background-size: cover;
+    display:block !important;
+
 }
 
 .bc-1{
