@@ -321,12 +321,24 @@ body{
 /* Home Background */
 
 .home-background{
-  min-height:500px;
-  background: url("../imgs/home-cover.jpeg") no-repeat 50% 50% / cover;
+  min-height:535px;
+  background: url("../imgs/home-cover.jpeg") no-repeat;
+  background-size: cover;
 }
 
 .one{
-    background: url("../imgs/school.jpg") no-repeat 50% 50% / cover;
+    background: url("../imgs/school.jpg") no-repeat;
+    background-size: cover;
+}
+
+.bc-1{
+    background: url("../imgs/bc-1.jpg") no-repeat;
+    background-size: cover;
+}
+
+.bc-2{
+    background: url("../imgs/bc-2.jpg") no-repeat;
+    background-size: cover;
 }
 
 .home-background-content{
@@ -346,6 +358,16 @@ body{
 .home-background-content a{
   text-decoration: none;
   color: #fff;
+}
+
+.home-background-content .next{
+    width: 200px;
+    margin: 0px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border: none;
+    padding: 5px 2px;
 }
 
 /* Home Background */
