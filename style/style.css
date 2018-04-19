@@ -1298,9 +1298,9 @@ footer .footer-social i:hover{
   padding: 20px 0 20px 0;
 }
 
-.footer-copyrights .footer-copyrights-content{
+.footer-copyrights .footer-copyrights-{
   display: flex;
-  justify-content: space-between;
+  justify-: space-between;
   margin: 10px 0px 10px 0px;
 }
 
@@ -1365,13 +1365,21 @@ footer .footer-social i:hover{
   /* End Header */
 
   /* Start Main */
+  .home-background{
+      min-height: 560px;
+
+  }
+
   .home-background-content{
     font-size: 16px;
     z-index: 1;
+    height: 95px
+
   }
 
   .home-background-content p{
     margin-top: 3px;
+    margin-bottom: 8px
   }
 
   .home-main{
@@ -1484,7 +1492,7 @@ footer .footer-social i:hover{
 .flex-team{
   display: block;
 }
-  
+
 
 
 /* HandBall */
