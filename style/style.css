@@ -1440,7 +1440,12 @@ footer .footer-social i:hover{
 
  .v-gallery{
    width: 335px;
-   height: 770px
+   height: 770px;
+   justify-content: center;
+ }
+
+ .volleytext{
+   display: none;
  }
  /* End omar */
 
