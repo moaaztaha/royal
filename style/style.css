@@ -1428,6 +1428,10 @@ footer .footer-social i:hover{
   #ticket-submit{
     margin-left: 30%;
   }
+
+  .tickets .tickets-teams .team1, .tickets .tickets-teams .team2{
+    background-size: 100% 100%;
+  }
  /* End Tickets */
 
  /* Start omar */
