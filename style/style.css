@@ -283,11 +283,15 @@ body{
   border-top: 3px solid #72142E;
 }
 
-.header-brand .brand{
+.header-brand .brand,.header-brand .brand a{
   color: #fff;
   text-align: center;
   line-height: 2.5;
   text-transform: uppercase;
+}
+
+.header-brand .brand a{
+  text-decoration: none;
 }
 
 /* End Header brand */
