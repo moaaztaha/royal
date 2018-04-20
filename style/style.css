@@ -1366,15 +1366,15 @@ footer .footer-social i:hover{
 
   /* Start Main */
   .home-background{
-      min-height: 560px;
-
+      min-height: 211px;
+      background-size: contain;
   }
 
   .home-background-content{
     font-size: 16px;
     z-index: 1;
-    height: 95px
-
+    height: 95px;
+    top: 68px;
   }
 
   .home-background-content p{
