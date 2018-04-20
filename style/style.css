@@ -1104,7 +1104,7 @@ display: inline-block;
 .tabletitler{
     text-align: center;
     color:black;
-    width:37%;
+    width:100%;
     margin: 0 auto;
     margin-bottom: -4px;
     padding:-1px;
