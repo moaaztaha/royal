@@ -1371,7 +1371,7 @@ footer .footer-social i:hover{
   /* Start Main */
   .home-background{
       min-height: 211px;
-      background-size: contain;
+      background-size: 100%;
   }
 
   .home-background-content{
