@@ -1497,6 +1497,9 @@ footer .footer-social i:hover{
     justify-content: space-between;
     opacity: 0.9;
     height:100px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border: 0px;
 }
     .matches h1{margin:50px;font-size: 90%;}
 .flex-team{
